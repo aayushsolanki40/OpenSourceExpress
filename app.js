@@ -6,6 +6,7 @@ const app = express();
 const port = process.env.PORT || 3050;
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.render('home.ejs')
