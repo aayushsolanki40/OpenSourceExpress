@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port that your Express app will run on
-EXPOSE 3000
+EXPOSE 3050
 
 # Install PM2 globally
 RUN npm install -g pm2
