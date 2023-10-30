@@ -1,4 +1,4 @@
-# OpenSourceExpress
+# Sample Express app to learn docker
 
 To build docker image run this command
 ```
