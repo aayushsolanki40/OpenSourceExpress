@@ -20,4 +20,4 @@ EXPOSE 3050
 RUN npm install -g pm2
 
 # Start your Express app using PM2
-CMD ["pm2", "start", "app.js"]
+CMD ["pm2-runtime", "app.js"]
